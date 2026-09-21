@@ -52,8 +52,7 @@ function Hero() {
         <div className="animate-slide-left" style={{ animationDelay: "0.6s" }}>
           <p className="text-lg md:text-xl text-gray-100 mb-12 max-w-3xl mx-auto leading-relaxed">
             Building a SaaS product from the ground up: architecture,
-            backend, and frontend, all of it. Learning by shipping, not by
-            waiting until I feel &quot;ready.&quot;
+            backend, and frontend, all of it. Learning by shipping.
           </p>
         </div>
 
