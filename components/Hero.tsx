@@ -44,17 +44,16 @@ function Hero() {
         <div className="animate-slide-right" style={{ animationDelay: "0.3s" }}>
           <h2 className="text-2xl md:text-4xl font-semibold text-gray-300 mb-8">
             <span className="inline-block">
-              Full Stack Developer with experience building web applications
-              from database design to polished user interfaces
+              Solo Founder & Self-Taught Developer, Building in Public
             </span>
           </h2>
         </div>
 
         <div className="animate-slide-left" style={{ animationDelay: "0.6s" }}>
           <p className="text-lg md:text-xl text-gray-100 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Crafting immersive digital experiences with modern web technologies.
-            I transform ideas into elegant, high-performance applications that
-            captivate users and drive results.
+            Building a SaaS product from the ground up — architecture, backend,
+            and frontend, all of it. Learning by shipping, not by waiting
+            until I feel &quot;ready.&quot;
           </p>
         </div>
 

@@ -36,17 +36,17 @@ function AboutMe() {
               </h2>
 
               <p className="text-lg text-gray-100 leading-relaxed mb-6">
-                Full Stack Developer with experience building web
-                applications, from database design to polished user interfaces,
-                focused on building modern web applications with clean UI and
-                real-world functionality.
+                Solo founder and self-taught developer based in Addis Ababa,
+                Ethiopia. Currently building a SaaS product end-to-end —
+                architecture, backend, frontend, and everything in between —
+                while learning by shipping real, working software.
               </p>
 
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse" />
                   <span className="text-gray-100">
-                    Passionate about creating immersive digital experiences
+                    Building in public, one commit at a time
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -55,8 +55,7 @@ function AboutMe() {
                     style={{ animationDelay: "0.5s" }}
                   />
                   <span className="text-gray-100">
-                    Specialized in modern web technologies and full-stack
-                    development
+                    Self-taught: React, Next.js, TypeScript, Supabase, PostgreSQL
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -65,7 +64,7 @@ function AboutMe() {
                     style={{ animationDelay: "1s" }}
                   />
                   <span className="text-gray-100">
-                    Focused on clean interfaces and real-world functionality
+                    Focused on turning a working product into a paying business
                   </span>
                 </div>
               </div>
