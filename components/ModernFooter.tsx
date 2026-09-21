@@ -71,13 +71,13 @@ function ModernFooter() {
                   <h3 className="text-xl font-bold text-white">
                     Daniel Tadesse
                   </h3>
-                  <p className="text-gray-400 text-sm">Full Stack Developer</p>
+                  <p className="text-gray-400 text-sm">Solo Founder & Developer</p>
                 </div>
               </div>
 
               <p className="text-gray-100 leading-relaxed">
-                Crafting immersive digital experiences with modern web
-                technologies. Let's build something amazing together.
+                Building a SaaS product from the ground up, one commit at a
+                time. Let&apos;s connect.
               </p>
             </div>
 
