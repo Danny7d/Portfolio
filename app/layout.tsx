@@ -5,8 +5,8 @@ import ModernNav from "@/components/ModernNav";
 import ModernFooter from "@/components/ModernFooter";
 
 export const metadata: Metadata = {
-  title: "Daniel Tadesse - Full Stack Developer",
-  description: "Full Stack Developer with experience building web applications from database design to polished user interfaces",
+  title: "Daniel Tadesse - Solo Founder & Developer",
+  description: "Solo founder and self-taught developer building a SaaS product from the ground up.",
 };
 
 export default function RootLayout({

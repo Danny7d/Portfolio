@@ -1,5 +1,5 @@
-import ModernSkills from "@/components/ModernSkills";
+import { redirect } from "next/navigation";
 
 export default function SkillsPage() {
-  return <ModernSkills />;
+  redirect("/#skills");
 }

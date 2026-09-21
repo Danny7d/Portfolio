@@ -37,8 +37,8 @@ function AboutMe() {
 
               <p className="text-lg text-gray-100 leading-relaxed mb-6">
                 Solo founder and self-taught developer based in Addis Ababa,
-                Ethiopia. Currently building a SaaS product end-to-end —
-                architecture, backend, frontend, and everything in between —
+                Ethiopia. Currently building a SaaS product end-to-end:
+                architecture, backend, frontend, and everything in between,
                 while learning by shipping real, working software.
               </p>
 

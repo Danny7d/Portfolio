@@ -1,5 +1,5 @@
-import ModernContact from "@/components/ModernContact";
+import { redirect } from "next/navigation";
 
 export default function ContactPage() {
-  return <ModernContact />;
+  redirect("/#contact");
 }
