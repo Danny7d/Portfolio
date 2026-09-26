@@ -1,6 +1,22 @@
 function ModernProjects() {
   const projects = [
     {
+      name: "Tably",
+      description:
+        "Multi-tenant restaurant SaaS platform with QR ordering, kitchen display system, and AI-powered review insights",
+      features: [
+        "QR Table Ordering",
+        "Multi-Tenant Architecture",
+        "AI Review Insights",
+        "Kitchen Display System",
+      ],
+      stack: ["Next.js", "TypeScript", "Supabase", "Gemini AI"],
+      liveUrl: "https://tably.site",
+      githubUrl: "https://github.com/Danny7d/Tably",
+      gradient: "from-orange-500 to-red-500",
+      icon: "\ud83c\udf7d\ufe0f",
+    },
+    {
       name: "Movie Mint",
       description:
         "Cinematic movie discovery platform with real-time data and immersive UI",
@@ -14,7 +30,7 @@ function ModernProjects() {
       liveUrl: "https://movie-mint-d.vercel.app/",
       githubUrl: "https://github.com/Danny7d/Movie-Mint",
       gradient: "from-slate-600 to-slate-700",
-      icon: "🎬",
+      icon: "\ud83c\udfac",
     },
     {
       name: "Pick Fashion",
@@ -30,7 +46,7 @@ function ModernProjects() {
       liveUrl: "https://pick-fashion.vercel.app/",
       githubUrl: "https://github.com/Danny7d/Pick-Fashion",
       gradient: "from-cyan-500 to-blue-500",
-      icon: "👗",
+      icon: "\ud83d\udc57",
     },
   ];
 
@@ -135,7 +151,7 @@ function ModernProjects() {
                     className={`flex-1 text-center py-3 bg-gradient-to-r ${project.gradient} text-white font-semibold rounded-xl hover-glow hover-scale transition-all duration-300`}
                   >
                     <span className="flex items-center justify-center space-x-2">
-                      <span>🚀</span>
+                      <span>\ud83d\ude80</span>
                       <span>Live Demo</span>
                     </span>
                   </a>
@@ -146,7 +162,7 @@ function ModernProjects() {
                     className="flex-1 text-center py-3 glass glass-hover text-gray-300 font-semibold rounded-xl border border-gray-600 hover:border-cyan-400 hover:text-cyan-400 transition-all duration-300"
                   >
                     <span className="flex items-center justify-center space-x-2">
-                      <span>💻</span>
+                      <span>\ud83d\udcbb</span>
                       <span>Source Code</span>
                     </span>
                   </a>
