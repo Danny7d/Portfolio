@@ -19,7 +19,7 @@ function ModernProjects() {
     {
       name: "MailDesk",
       description:
-        "No-code email platform with secure inbound/outbound sending, encrypted key storage, and async queue processing",
+        "No-code email platform built on Resend, with secure inbound/outbound sending, encrypted key storage, and async queue processing",
       features: [
         "AES-256 Encrypted API Keys",
         "Inbound Email Receiving",
