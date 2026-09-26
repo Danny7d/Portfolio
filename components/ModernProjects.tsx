@@ -17,6 +17,22 @@ function ModernProjects() {
       icon: "🍽️",
     },
     {
+      name: "MailDesk",
+      description:
+        "No-code email platform with secure inbound/outbound sending, encrypted key storage, and async queue processing",
+      features: [
+        "AES-256 Encrypted API Keys",
+        "Inbound Email Receiving",
+        "Async Queue Processing",
+        "Multi-Tenant Isolation",
+      ],
+      stack: ["Next.js", "Fastify", "PostgreSQL", "Redis"],
+      liveUrl: "https://inbound.tably.site",
+      githubUrl: "https://github.com/Danny7d/MailDesk",
+      gradient: "from-purple-500 to-indigo-500",
+      icon: "📧",
+    },
+    {
       name: "Movie Mint",
       description:
         "Cinematic movie discovery platform with real-time data and immersive UI",
