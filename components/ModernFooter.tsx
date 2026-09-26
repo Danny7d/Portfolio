@@ -30,6 +30,16 @@ function ModernFooter() {
 
   const projectLinks = [
     {
+      name: "Tably",
+      url: "https://github.com/Danny7d/Tably",
+      icon: "🍽️",
+    },
+    {
+      name: "MailDesk",
+      url: "https://github.com/Danny7d/MailDesk",
+      icon: "📧",
+    },
+    {
       name: "Movie Mint",
       url: "https://github.com/Danny7d/Movie-Mint",
       icon: "🎬",
