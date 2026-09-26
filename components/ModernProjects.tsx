@@ -90,7 +90,7 @@ function ModernProjects() {
             >
               {/* Card glow effect */}
               <div
-                className={`absolute -inset-1 bg-gradient-to-r ${project.gradient} rounded-2xl opacity-0 group-hover:opacity-75 blur-xl transition-all duration-500 animate-glow`}
+                className={`absolute -inset-1 bg-gradient-to-r ${project.gradient} rounded-2xl opacity-0 group-hover:opacity-30 blur-xl transition-all duration-500 animate-glow`}
               />
 
               {/* Main card */}
