@@ -19,14 +19,14 @@ function ModernProjects() {
     {
       name: "MailDesk",
       description:
-        "No-code email platform built on Resend, with secure inbound/outbound sending, encrypted key storage, and async queue processing",
+        "No-code email platform on top of Resend: connect your own account, then send and receive email from a Gmail-style dashboard, with encrypted API-key storage",
       features: [
-        "AES-256 Encrypted API Keys",
-        "Inbound Email Receiving",
-        "Async Queue Processing",
-        "Multi-Tenant Isolation",
+        "AES-256-GCM Encrypted API Keys",
+        "Inbound Email via Webhooks",
+        "Send & Track Email History",
+        "Per-User Data Isolation",
       ],
-      stack: ["Next.js", "Fastify", "PostgreSQL", "Redis"],
+      stack: ["Next.js", "Prisma", "Supabase", "Resend"],
       liveUrl: "https://inbound.tably.site",
       githubUrl: "https://github.com/Danny7d/MailDesk",
       gradient: "from-purple-500 to-indigo-500",
