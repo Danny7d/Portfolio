@@ -3,14 +3,14 @@ function ModernProjects() {
     {
       name: "Tably",
       description:
-        "Multi-tenant restaurant SaaS platform with QR ordering, kitchen display system, and AI-powered review insights",
-      features: [
-        "QR Table Ordering",
-        "Multi-Tenant Architecture",
-        "AI Review Insights",
-        "Kitchen Display System",
+        "Multi-tenant restaurant management SaaS built for Ethiopian restaurants. QR table ordering (no app required), kitchen display system, multi-branch admin dashboard, real-time order tracking, and AI-powered review insights. I own the full product cycle — architecture, backend, frontend, marketing site, and going-to-market decisions.",
+      highlights: [
+        "QR ordering with zero-download customer experience",
+        "Multi-tenant architecture with branch-level isolation",
+        "Kitchen Display System + live order lifecycle",
+        "Marketing site + SEO + conversion-focused landing",
       ],
-      stack: ["Next.js", "TypeScript", "Supabase", "Gemini AI"],
+      stack: ["Next.js", "TypeScript", "Supabase", "PostgreSQL", "Gemini AI"],
       liveUrl: "https://tably.site",
       githubUrl: "https://github.com/Danny7d/Tably",
       gradient: "from-orange-500 to-red-500",
@@ -19,14 +19,14 @@ function ModernProjects() {
     {
       name: "MailDesk",
       description:
-        "No-code email platform on top of Resend: connect your own account, then send and receive email from a Gmail-style dashboard, with encrypted API-key storage",
-      features: [
-        "AES-256-GCM Encrypted API Keys",
-        "Inbound Email via Webhooks",
-        "Send & Track Email History",
-        "Per-User Data Isolation",
+        "No-code email platform on top of Resend. Connect your own API key once, then send and receive branded email from a Gmail-style inbox. Built with strong security focus: AES-256-GCM encrypted keys at rest, multi-tenant isolation, webhook-verified inbound mail, and rate limiting.",
+      highlights: [
+        "AES-256-GCM encrypted Resend API keys (never exposed to browser)",
+        "Inbound email via Resend webhooks + read/unread state",
+        "Per-user data isolation and bcrypt auth",
+        "Clean composer + sent history with delivery status",
       ],
-      stack: ["Next.js", "Prisma", "Supabase", "Resend"],
+      stack: ["Next.js", "TypeScript", "Prisma", "Supabase", "Resend", "NextAuth"],
       liveUrl: "https://inbound.tably.site",
       githubUrl: "https://github.com/Danny7d/MailDesk",
       gradient: "from-purple-500 to-indigo-500",
@@ -35,14 +35,14 @@ function ModernProjects() {
     {
       name: "Movie Mint",
       description:
-        "Cinematic movie discovery platform with real-time data and immersive UI",
-      features: [
-        "Movie Search",
-        "Trending Movies",
-        "API Integration",
-        "Responsive Design",
+        "Cinematic movie discovery app that surfaces trending and popular titles, supports real-time search, and shows rich detail pages with cast, ratings, and trailers. Built as a focused frontend project emphasizing clean component design, API handling, and responsive UX.",
+      highlights: [
+        "TMDB + OMDb API integration with graceful empty states",
+        "Dynamic backdrop backgrounds and hover interactions",
+        "Trailer modal with keyboard support",
+        "Fully responsive cinematic UI",
       ],
-      stack: ["React", "Tailwind CSS", "Vite", "Movie API"],
+      stack: ["React", "Vite", "Tailwind CSS", "Axios", "TMDB API"],
       liveUrl: "https://movie-mint-d.vercel.app/",
       githubUrl: "https://github.com/Danny7d/Movie-Mint",
       gradient: "from-slate-600 to-slate-700",
@@ -51,14 +51,14 @@ function ModernProjects() {
     {
       name: "Pick Fashion",
       description:
-        "Modern e-commerce platform with authentication and seamless shopping experience",
-      features: [
-        "Product Browsing",
-        "Shopping Cart",
-        "User Authentication",
-        "Database Integration",
+        "Ethiopian fashion e-commerce experience with product browsing, cart flow, and Telegram bot integration for ordering and seller communication. Customers can place requests directly through Telegram; the admin side handles order management and customer messaging.",
+      highlights: [
+        "Product catalog + responsive shopping experience",
+        "Telegram bot for order requests and seller chat",
+        "Supabase-backed data and authentication",
+        "End-to-end flow from browse → order → confirmation",
       ],
-      stack: ["React", "Supabase", "PostgreSQL", "Tailwind"],
+      stack: ["React", "Supabase", "PostgreSQL", "Tailwind", "Telegram Bot"],
       liveUrl: "https://pick-fashion.vercel.app/",
       githubUrl: "https://github.com/Danny7d/Pick-Fashion",
       gradient: "from-cyan-500 to-blue-500",
@@ -76,8 +76,8 @@ function ModernProjects() {
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Explore my latest work showcasing modern web development, creative
-            problem-solving, and attention to detail.
+            Real products I have designed, built, and shipped — from idea to
+            live users.
           </p>
         </div>
 
@@ -88,14 +88,11 @@ function ModernProjects() {
               className="group relative"
               style={{ animationDelay: `${index * 0.2}s` }}
             >
-              {/* Card glow effect */}
               <div
                 className={`absolute -inset-1 bg-gradient-to-r ${project.gradient} rounded-2xl opacity-0 group-hover:opacity-30 blur-xl transition-all duration-500 animate-glow`}
               />
 
-              {/* Main card */}
               <div className="relative glass glass-hover rounded-2xl p-8 hover-tilt transition-all duration-500">
-                {/* Project header */}
                 <div className="flex items-center justify-between mb-6">
                   <div className="flex items-center space-x-4">
                     <div
@@ -111,7 +108,6 @@ function ModernProjects() {
                     </div>
                   </div>
 
-                  {/* Status badge */}
                   <div className="px-3 py-1 bg-green-500/20 border border-green-500/30 rounded-full">
                     <span className="text-green-400 text-sm font-semibold">
                       Live
@@ -119,29 +115,27 @@ function ModernProjects() {
                   </div>
                 </div>
 
-                {/* Project description */}
-                <p className="text-gray-200 mb-6 leading-relaxed">
+                <p className="text-gray-200 mb-5 leading-relaxed text-[15px]">
                   {project.description}
                 </p>
 
-                {/* Features */}
                 <div className="mb-6">
                   <h4 className="text-sm font-semibold text-gray-400 mb-3">
-                    Key Features
+                    What I built
                   </h4>
-                  <div className="flex flex-wrap gap-2">
-                    {project.features.map((feature, idx) => (
-                      <span
+                  <ul className="space-y-2">
+                    {project.highlights.map((item, idx) => (
+                      <li
                         key={idx}
-                        className={`px-3 py-1 bg-gradient-to-r ${project.gradient}/20 text-gray-200 rounded-full text-sm border border-white/10`}
+                        className="flex items-start gap-2 text-sm text-gray-300"
                       >
-                        {feature}
-                      </span>
+                        <span className="text-cyan-400 mt-0.5">▸</span>
+                        <span>{item}</span>
+                      </li>
                     ))}
-                  </div>
+                  </ul>
                 </div>
 
-                {/* Tech stack */}
                 <div className="mb-8">
                   <h4 className="text-sm font-semibold text-gray-400 mb-3">
                     Tech Stack
@@ -158,7 +152,6 @@ function ModernProjects() {
                   </div>
                 </div>
 
-                {/* Action buttons */}
                 <div className="flex gap-4">
                   <a
                     href={project.liveUrl}
@@ -167,7 +160,6 @@ function ModernProjects() {
                     className={`flex-1 text-center py-3 bg-gradient-to-r ${project.gradient} text-white font-semibold rounded-xl hover-glow hover-scale transition-all duration-300`}
                   >
                     <span className="flex items-center justify-center space-x-2">
-                      <span>🚀</span>
                       <span>Live Demo</span>
                     </span>
                   </a>
@@ -178,13 +170,11 @@ function ModernProjects() {
                     className="flex-1 text-center py-3 glass glass-hover text-gray-300 font-semibold rounded-xl border border-gray-600 hover:border-cyan-400 hover:text-cyan-400 transition-all duration-300"
                   >
                     <span className="flex items-center justify-center space-x-2">
-                      <span>💻</span>
-                      <span>Source Code</span>
+                      <span>Source</span>
                     </span>
                   </a>
                 </div>
 
-                {/* Floating decoration */}
                 <div
                   className={`absolute top-4 right-4 w-20 h-20 bg-gradient-to-r ${project.gradient} rounded-full opacity-10 animate-pulse`}
                 />

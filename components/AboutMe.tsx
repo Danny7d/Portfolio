@@ -21,7 +21,6 @@ function AboutMe() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              {/* Subtle glow effect behind image */}
               <div className="absolute -inset-2 rounded-full bg-gradient-to-r from-cyan-400/25 to-purple-400/25 blur-2xl" />
             </div>
           </div>
@@ -35,18 +34,33 @@ function AboutMe() {
                 </span>
               </h2>
 
-              <p className="text-lg text-gray-100 leading-relaxed mb-6">
-                Solo founder and self-taught developer based in Addis Ababa,
-                Ethiopia. Currently building a SaaS product end-to-end:
-                architecture, backend, frontend, and everything in between,
-                while learning by shipping real, working software.
+              <p className="text-lg text-gray-100 leading-relaxed mb-5">
+                Engineering student at AASTU and independent software developer
+                focused on building products that solve real problems.
               </p>
 
-              <div className="space-y-4">
+              <p className="text-base text-gray-200 leading-relaxed mb-5">
+                I work across the full stack — interfaces, APIs, databases,
+                authentication, and deployment. What interests me most is taking
+                an idea beyond the code and figuring out how to make it useful
+                to the people it is built for.
+              </p>
+
+              <p className="text-base text-gray-200 leading-relaxed mb-6">
+                One of my main projects is <span className="text-cyan-400 font-medium">Tably</span>, a
+                restaurant management and ordering platform I am building to help
+                restaurants run operations more efficiently. Working on it has
+                pushed me to think about product decisions, business needs, and
+                how to get software into the hands of real users. I also explore
+                other ideas such as MailDesk while strengthening engineering
+                fundamentals through hands-on projects.
+              </p>
+
+              <div className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse" />
                   <span className="text-gray-100">
-                    Building in public, one commit at a time
+                    Learn best by building, running into problems, and solving them
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -64,7 +78,7 @@ function AboutMe() {
                     style={{ animationDelay: "1s" }}
                   />
                   <span className="text-gray-100">
-                    Focused on turning a working product into a paying business
+                    Turning ideas into software people can actually use
                   </span>
                 </div>
               </div>
